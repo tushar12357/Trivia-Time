@@ -83,6 +83,15 @@ const App = () => {
         handle.exit(); // Exit full screen when quiz finishes
     };
 
+    const restartQuiz = () => {
+        setIsQuizStarted(false);
+        setIsQuizFinished(false);
+        setCurrentQuestionIndex(0);
+        setTimer(0);
+        setAnswers({});
+        localStorage.removeItem('quizState');
+    };
+
     const calculateScore = () => {
         return questions.reduce((score, question, index) => {
             if (answers[index] === question.answer) {
@@ -113,6 +122,7 @@ const App = () => {
                                 </div>
                             ))}
                         </div>
+                        <button className="restart-btn" onClick={restartQuiz}>Take Quiz Again</button>
                     </div>
                 ) : (
                     <>

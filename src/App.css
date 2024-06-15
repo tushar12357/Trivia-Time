@@ -6,7 +6,6 @@ body, html, #root {
   background-image: url('../public/background.jpg'); /* Replace with your background image */
   background-size: cover;
   background-position: center;
-  background-blend-mode:overlay;
 }
 
 .quiz-container {
@@ -165,4 +164,21 @@ button.fullscreen-btn:hover {
   font-size: 28px;
   margin-bottom: 20px;
   font-weight: bold;
+}
+
+.restart-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.restart-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-3px);
 }

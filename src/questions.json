@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["Berlin", "Madrid", "Paris", "Lisbon"],
+        "answer": "Paris"
+    },
+    {
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "options": ["Harper Lee", "Mark Twain", "Ernest Hemingway", "F. Scott Fitzgerald"],
+        "answer": "Harper Lee"
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "options": ["O2", "H2O", "CO2", "NaCl"],
+        "answer": "H2O"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Jupiter", "Venus"],
+        "answer": "Mars"
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+        "answer": "Pacific Ocean"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "options": ["Vincent Van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+        "answer": "Leonardo da Vinci"
+    },
+    {
+        "question": "What is the capital of Japan?",
+        "options": ["Seoul", "Beijing", "Bangkok", "Tokyo"],
+        "answer": "Tokyo"
+    },
+    {
+        "question": "Which element has the atomic number 1?",
+        "options": ["Helium", "Oxygen", "Hydrogen", "Nitrogen"],
+        "answer": "Hydrogen"
+    },
+    {
+        "question": "What is the hardest natural substance on Earth?",
+        "options": ["Gold", "Iron", "Diamond", "Silver"],
+        "answer": "Diamond"
+    },
+    {
+        "question": "Who wrote the play 'Romeo and Juliet'?",
+        "options": ["William Shakespeare", "George Bernard Shaw", "Jane Austen", "Charles Dickens"],
+        "answer": "William Shakespeare"
+    }
+]
